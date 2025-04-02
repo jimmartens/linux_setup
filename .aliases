@@ -1,0 +1,25 @@
+#Listing
+alias ls="ls -ltra"
+alias ldir="ls -d */"
+
+#Python
+alias py="python3"
+alias python="python3"
+
+#git
+alias gc="git commit -m"
+alias gch="git checkout"
+alias ga="git add"
+alias gc="git commit"
+alias gs="git status"
+
+#K8s/Docker
+alias kc="kubectl"
+alias mk="minikube"
+alias dc="docker-compose"
+
+#Google
+alias gcl="gcloud"
+
+#SSH Commands - Requires sshpass
+alias godev="sshpass -p $PXPASS ssh root@10.0.0.35"
